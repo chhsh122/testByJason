@@ -1,6 +1,6 @@
 //
-//  testTests.m
-//  testTests
+//  MX_test_JasonChenTests.m
+//  MX-test-JasonChenTests
 //
 //  Created by Jason chen on 2017/5/21.
 //  Copyright © 2017年 Jason Chen. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface testTests : XCTestCase
+@interface MX_test_JasonChenTests : XCTestCase
 
 @end
 
-@implementation testTests
+@implementation MX_test_JasonChenTests
 
 - (void)setUp {
     [super setUp];

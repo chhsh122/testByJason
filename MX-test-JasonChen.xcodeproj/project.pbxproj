@@ -7,70 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F4996ED1ED139A000072509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4996EC1ED139A000072509 /* main.m */; };
-		4F4996F01ED139A000072509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4996EF1ED139A000072509 /* AppDelegate.m */; };
-		4F4996F31ED139A000072509 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4996F21ED139A000072509 /* ViewController.m */; };
-		4F4996F61ED139A000072509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4996F41ED139A000072509 /* Main.storyboard */; };
-		4F4996F91ED139A000072509 /* test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F4996F71ED139A000072509 /* test.xcdatamodeld */; };
-		4F4996FB1ED139A000072509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4996FA1ED139A000072509 /* Assets.xcassets */; };
-		4F4996FE1ED139A000072509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4996FC1ED139A000072509 /* LaunchScreen.storyboard */; };
-		4F4997091ED139A000072509 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4997081ED139A000072509 /* testTests.m */; };
-		4F4997141ED139A000072509 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4997131ED139A000072509 /* testUITests.m */; };
+		4F49972F1ED145C200072509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49972E1ED145C200072509 /* main.m */; };
+		4F4997321ED145C200072509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4997311ED145C200072509 /* AppDelegate.m */; };
+		4F4997351ED145C200072509 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4997341ED145C200072509 /* ViewController.m */; };
+		4F4997381ED145C200072509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4997361ED145C200072509 /* Main.storyboard */; };
+		4F49973B1ED145C200072509 /* MX_test_JasonChen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F4997391ED145C200072509 /* MX_test_JasonChen.xcdatamodeld */; };
+		4F49973D1ED145C200072509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F49973C1ED145C200072509 /* Assets.xcassets */; };
+		4F4997401ED145C200072509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F49973E1ED145C200072509 /* LaunchScreen.storyboard */; };
+		4F49974B1ED145C200072509 /* MX_test_JasonChenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49974A1ED145C200072509 /* MX_test_JasonChenTests.m */; };
+		4F4997561ED145C200072509 /* MX_test_JasonChenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4997551ED145C200072509 /* MX_test_JasonChenUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F4997051ED139A000072509 /* PBXContainerItemProxy */ = {
+		4F4997471ED145C200072509 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F4996E01ED139A000072509 /* Project object */;
+			containerPortal = 4F4997221ED145C200072509 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F4996E71ED139A000072509;
-			remoteInfo = test;
+			remoteGlobalIDString = 4F4997291ED145C200072509;
+			remoteInfo = "MX-test-JasonChen";
 		};
-		4F4997101ED139A000072509 /* PBXContainerItemProxy */ = {
+		4F4997521ED145C200072509 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F4996E01ED139A000072509 /* Project object */;
+			containerPortal = 4F4997221ED145C200072509 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F4996E71ED139A000072509;
-			remoteInfo = test;
+			remoteGlobalIDString = 4F4997291ED145C200072509;
+			remoteInfo = "MX-test-JasonChen";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F4996E81ED139A000072509 /* MX-test-JasonChen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MX-test-JasonChen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F4996EC1ED139A000072509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F4996EE1ED139A000072509 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4F4996EF1ED139A000072509 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F4996F11ED139A000072509 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F4996F21ED139A000072509 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4F4996F51ED139A000072509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F4996F81ED139A000072509 /* test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test.xcdatamodel; sourceTree = "<group>"; };
-		4F4996FA1ED139A000072509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F4996FD1ED139A000072509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4F4996FF1ED139A000072509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F4997041ED139A000072509 /* MX-test-JasonChenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MX-test-JasonChenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F4997081ED139A000072509 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
-		4F49970A1ED139A000072509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F49970F1ED139A000072509 /* MX-test-JasonChenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MX-test-JasonChenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F4997131ED139A000072509 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
-		4F4997151ED139A000072509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F49972A1ED145C200072509 /* MX-test-JasonChen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MX-test-JasonChen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F49972E1ED145C200072509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F4997301ED145C200072509 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F4997311ED145C200072509 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F4997331ED145C200072509 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F4997341ED145C200072509 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F4997371ED145C200072509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F49973A1ED145C200072509 /* MX_test_JasonChen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MX_test_JasonChen.xcdatamodel; sourceTree = "<group>"; };
+		4F49973C1ED145C200072509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F49973F1ED145C200072509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F4997411ED145C200072509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4997461ED145C200072509 /* MX-test-JasonChenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MX-test-JasonChenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F49974A1ED145C200072509 /* MX_test_JasonChenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MX_test_JasonChenTests.m; sourceTree = "<group>"; };
+		4F49974C1ED145C200072509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4997511ED145C200072509 /* MX-test-JasonChenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MX-test-JasonChenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4997551ED145C200072509 /* MX_test_JasonChenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MX_test_JasonChenUITests.m; sourceTree = "<group>"; };
+		4F4997571ED145C200072509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F4996E51ED139A000072509 /* Frameworks */ = {
+		4F4997271ED145C200072509 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F4997011ED139A000072509 /* Frameworks */ = {
+		4F4997431ED145C200072509 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F49970C1ED139A000072509 /* Frameworks */ = {
+		4F49974E1ED145C200072509 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,154 +80,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F4996DF1ED139A000072509 = {
+		4F4997211ED145C200072509 = {
 			isa = PBXGroup;
 			children = (
-				4F4996EA1ED139A000072509 /* test */,
-				4F4997071ED139A000072509 /* testTests */,
-				4F4997121ED139A000072509 /* testUITests */,
-				4F4996E91ED139A000072509 /* Products */,
+				4F49972C1ED145C200072509 /* MX-test-JasonChen */,
+				4F4997491ED145C200072509 /* MX-test-JasonChenTests */,
+				4F4997541ED145C200072509 /* MX-test-JasonChenUITests */,
+				4F49972B1ED145C200072509 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F4996E91ED139A000072509 /* Products */ = {
+		4F49972B1ED145C200072509 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F4996E81ED139A000072509 /* MX-test-JasonChen.app */,
-				4F4997041ED139A000072509 /* MX-test-JasonChenTests.xctest */,
-				4F49970F1ED139A000072509 /* MX-test-JasonChenUITests.xctest */,
+				4F49972A1ED145C200072509 /* MX-test-JasonChen.app */,
+				4F4997461ED145C200072509 /* MX-test-JasonChenTests.xctest */,
+				4F4997511ED145C200072509 /* MX-test-JasonChenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F4996EA1ED139A000072509 /* test */ = {
+		4F49972C1ED145C200072509 /* MX-test-JasonChen */ = {
 			isa = PBXGroup;
 			children = (
-				4F4996EE1ED139A000072509 /* AppDelegate.h */,
-				4F4996EF1ED139A000072509 /* AppDelegate.m */,
-				4F4996F11ED139A000072509 /* ViewController.h */,
-				4F4996F21ED139A000072509 /* ViewController.m */,
-				4F4996F41ED139A000072509 /* Main.storyboard */,
-				4F4996FA1ED139A000072509 /* Assets.xcassets */,
-				4F4996FC1ED139A000072509 /* LaunchScreen.storyboard */,
-				4F4996FF1ED139A000072509 /* Info.plist */,
-				4F4996F71ED139A000072509 /* test.xcdatamodeld */,
-				4F4996EB1ED139A000072509 /* Supporting Files */,
+				4F4997301ED145C200072509 /* AppDelegate.h */,
+				4F4997311ED145C200072509 /* AppDelegate.m */,
+				4F4997331ED145C200072509 /* ViewController.h */,
+				4F4997341ED145C200072509 /* ViewController.m */,
+				4F4997361ED145C200072509 /* Main.storyboard */,
+				4F49973C1ED145C200072509 /* Assets.xcassets */,
+				4F49973E1ED145C200072509 /* LaunchScreen.storyboard */,
+				4F4997411ED145C200072509 /* Info.plist */,
+				4F4997391ED145C200072509 /* MX_test_JasonChen.xcdatamodeld */,
+				4F49972D1ED145C200072509 /* Supporting Files */,
 			);
-			path = test;
+			path = "MX-test-JasonChen";
 			sourceTree = "<group>";
 		};
-		4F4996EB1ED139A000072509 /* Supporting Files */ = {
+		4F49972D1ED145C200072509 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F4996EC1ED139A000072509 /* main.m */,
+				4F49972E1ED145C200072509 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4F4997071ED139A000072509 /* testTests */ = {
+		4F4997491ED145C200072509 /* MX-test-JasonChenTests */ = {
 			isa = PBXGroup;
 			children = (
-				4F4997081ED139A000072509 /* testTests.m */,
-				4F49970A1ED139A000072509 /* Info.plist */,
+				4F49974A1ED145C200072509 /* MX_test_JasonChenTests.m */,
+				4F49974C1ED145C200072509 /* Info.plist */,
 			);
-			path = testTests;
+			path = "MX-test-JasonChenTests";
 			sourceTree = "<group>";
 		};
-		4F4997121ED139A000072509 /* testUITests */ = {
+		4F4997541ED145C200072509 /* MX-test-JasonChenUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4F4997131ED139A000072509 /* testUITests.m */,
-				4F4997151ED139A000072509 /* Info.plist */,
+				4F4997551ED145C200072509 /* MX_test_JasonChenUITests.m */,
+				4F4997571ED145C200072509 /* Info.plist */,
 			);
-			path = testUITests;
+			path = "MX-test-JasonChenUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F4996E71ED139A000072509 /* MX-test-JasonChen */ = {
+		4F4997291ED145C200072509 /* MX-test-JasonChen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F4997181ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChen" */;
+			buildConfigurationList = 4F49975A1ED145C200072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChen" */;
 			buildPhases = (
-				4F4996E41ED139A000072509 /* Sources */,
-				4F4996E51ED139A000072509 /* Frameworks */,
-				4F4996E61ED139A000072509 /* Resources */,
+				4F4997261ED145C200072509 /* Sources */,
+				4F4997271ED145C200072509 /* Frameworks */,
+				4F4997281ED145C200072509 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "MX-test-JasonChen";
-			productName = test;
-			productReference = 4F4996E81ED139A000072509 /* MX-test-JasonChen.app */;
+			productName = "MX-test-JasonChen";
+			productReference = 4F49972A1ED145C200072509 /* MX-test-JasonChen.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F4997031ED139A000072509 /* MX-test-JasonChenTests */ = {
+		4F4997451ED145C200072509 /* MX-test-JasonChenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F49971B1ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenTests" */;
+			buildConfigurationList = 4F49975D1ED145C200072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenTests" */;
 			buildPhases = (
-				4F4997001ED139A000072509 /* Sources */,
-				4F4997011ED139A000072509 /* Frameworks */,
-				4F4997021ED139A000072509 /* Resources */,
+				4F4997421ED145C200072509 /* Sources */,
+				4F4997431ED145C200072509 /* Frameworks */,
+				4F4997441ED145C200072509 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F4997061ED139A000072509 /* PBXTargetDependency */,
+				4F4997481ED145C200072509 /* PBXTargetDependency */,
 			);
 			name = "MX-test-JasonChenTests";
-			productName = testTests;
-			productReference = 4F4997041ED139A000072509 /* MX-test-JasonChenTests.xctest */;
+			productName = "MX-test-JasonChenTests";
+			productReference = 4F4997461ED145C200072509 /* MX-test-JasonChenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4F49970E1ED139A000072509 /* MX-test-JasonChenUITests */ = {
+		4F4997501ED145C200072509 /* MX-test-JasonChenUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F49971E1ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenUITests" */;
+			buildConfigurationList = 4F4997601ED145C200072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenUITests" */;
 			buildPhases = (
-				4F49970B1ED139A000072509 /* Sources */,
-				4F49970C1ED139A000072509 /* Frameworks */,
-				4F49970D1ED139A000072509 /* Resources */,
+				4F49974D1ED145C200072509 /* Sources */,
+				4F49974E1ED145C200072509 /* Frameworks */,
+				4F49974F1ED145C200072509 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F4997111ED139A000072509 /* PBXTargetDependency */,
+				4F4997531ED145C200072509 /* PBXTargetDependency */,
 			);
 			name = "MX-test-JasonChenUITests";
-			productName = testUITests;
-			productReference = 4F49970F1ED139A000072509 /* MX-test-JasonChenUITests.xctest */;
+			productName = "MX-test-JasonChenUITests";
+			productReference = 4F4997511ED145C200072509 /* MX-test-JasonChenUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F4996E01ED139A000072509 /* Project object */ = {
+		4F4997221ED145C200072509 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Jason Chen";
 				TargetAttributes = {
-					4F4996E71ED139A000072509 = {
+					4F4997291ED145C200072509 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ZNG8N2Y2VU;
 						ProvisioningStyle = Automatic;
 					};
-					4F4997031ED139A000072509 = {
+					4F4997451ED145C200072509 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ZNG8N2Y2VU;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 4F4996E71ED139A000072509;
+						TestTargetID = 4F4997291ED145C200072509;
 					};
-					4F49970E1ED139A000072509 = {
+					4F4997501ED145C200072509 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ZNG8N2Y2VU;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 4F4996E71ED139A000072509;
+						TestTargetID = 4F4997291ED145C200072509;
 					};
 				};
 			};
-			buildConfigurationList = 4F4996E31ED139A000072509 /* Build configuration list for PBXProject "MX-test-JasonChen" */;
+			buildConfigurationList = 4F4997251ED145C200072509 /* Build configuration list for PBXProject "MX-test-JasonChen" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,37 +235,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 4F4996DF1ED139A000072509;
-			productRefGroup = 4F4996E91ED139A000072509 /* Products */;
+			mainGroup = 4F4997211ED145C200072509;
+			productRefGroup = 4F49972B1ED145C200072509 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F4996E71ED139A000072509 /* MX-test-JasonChen */,
-				4F4997031ED139A000072509 /* MX-test-JasonChenTests */,
-				4F49970E1ED139A000072509 /* MX-test-JasonChenUITests */,
+				4F4997291ED145C200072509 /* MX-test-JasonChen */,
+				4F4997451ED145C200072509 /* MX-test-JasonChenTests */,
+				4F4997501ED145C200072509 /* MX-test-JasonChenUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F4996E61ED139A000072509 /* Resources */ = {
+		4F4997281ED145C200072509 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F4996FE1ED139A000072509 /* LaunchScreen.storyboard in Resources */,
-				4F4996FB1ED139A000072509 /* Assets.xcassets in Resources */,
-				4F4996F61ED139A000072509 /* Main.storyboard in Resources */,
+				4F4997401ED145C200072509 /* LaunchScreen.storyboard in Resources */,
+				4F49973D1ED145C200072509 /* Assets.xcassets in Resources */,
+				4F4997381ED145C200072509 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F4997021ED139A000072509 /* Resources */ = {
+		4F4997441ED145C200072509 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F49970D1ED139A000072509 /* Resources */ = {
+		4F49974F1ED145C200072509 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,61 +275,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F4996E41ED139A000072509 /* Sources */ = {
+		4F4997261ED145C200072509 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F4996F31ED139A000072509 /* ViewController.m in Sources */,
-				4F4996F91ED139A000072509 /* test.xcdatamodeld in Sources */,
-				4F4996F01ED139A000072509 /* AppDelegate.m in Sources */,
-				4F4996ED1ED139A000072509 /* main.m in Sources */,
+				4F4997351ED145C200072509 /* ViewController.m in Sources */,
+				4F4997321ED145C200072509 /* AppDelegate.m in Sources */,
+				4F49973B1ED145C200072509 /* MX_test_JasonChen.xcdatamodeld in Sources */,
+				4F49972F1ED145C200072509 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F4997001ED139A000072509 /* Sources */ = {
+		4F4997421ED145C200072509 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F4997091ED139A000072509 /* testTests.m in Sources */,
+				4F49974B1ED145C200072509 /* MX_test_JasonChenTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F49970B1ED139A000072509 /* Sources */ = {
+		4F49974D1ED145C200072509 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F4997141ED139A000072509 /* testUITests.m in Sources */,
+				4F4997561ED145C200072509 /* MX_test_JasonChenUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F4997061ED139A000072509 /* PBXTargetDependency */ = {
+		4F4997481ED145C200072509 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F4996E71ED139A000072509 /* MX-test-JasonChen */;
-			targetProxy = 4F4997051ED139A000072509 /* PBXContainerItemProxy */;
+			target = 4F4997291ED145C200072509 /* MX-test-JasonChen */;
+			targetProxy = 4F4997471ED145C200072509 /* PBXContainerItemProxy */;
 		};
-		4F4997111ED139A000072509 /* PBXTargetDependency */ = {
+		4F4997531ED145C200072509 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F4996E71ED139A000072509 /* MX-test-JasonChen */;
-			targetProxy = 4F4997101ED139A000072509 /* PBXContainerItemProxy */;
+			target = 4F4997291ED145C200072509 /* MX-test-JasonChen */;
+			targetProxy = 4F4997521ED145C200072509 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4F4996F41ED139A000072509 /* Main.storyboard */ = {
+		4F4997361ED145C200072509 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F4996F51ED139A000072509 /* Base */,
+				4F4997371ED145C200072509 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4F4996FC1ED139A000072509 /* LaunchScreen.storyboard */ = {
+		4F49973E1ED145C200072509 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F4996FD1ED139A000072509 /* Base */,
+				4F49973F1ED145C200072509 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -337,7 +337,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4F4997161ED139A000072509 /* Debug */ = {
+		4F4997581ED145C200072509 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -384,7 +384,7 @@
 			};
 			name = Debug;
 		};
-		4F4997171ED139A000072509 /* Release */ = {
+		4F4997591ED145C200072509 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,133 +425,130 @@
 			};
 			name = Release;
 		};
-		4F4997191ED139A000072509 /* Debug */ = {
+		4F49975B1ED145C200072509 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZNG8N2Y2VU;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = "MX-test-JasonChen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JasonChen.test.test;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JasonChen.MX-test-JasonChen.MX-test-JasonChen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4F49971A1ED139A000072509 /* Release */ = {
+		4F49975C1ED145C200072509 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZNG8N2Y2VU;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = "MX-test-JasonChen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JasonChen.test.test;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JasonChen.MX-test-JasonChen.MX-test-JasonChen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		4F49971C1ED139A000072509 /* Debug */ = {
+		4F49975E1ED145C200072509 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ZNG8N2Y2VU;
-				INFOPLIST_FILE = testTests/Info.plist;
+				INFOPLIST_FILE = "MX-test-JasonChenTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JasonChen.test.testTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JasonChen.MX-test-JasonChen.MX-test-JasonChenTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MX-test-JasonChen.app/MX-test-JasonChen";
 			};
 			name = Debug;
 		};
-		4F49971D1ED139A000072509 /* Release */ = {
+		4F49975F1ED145C200072509 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ZNG8N2Y2VU;
-				INFOPLIST_FILE = testTests/Info.plist;
+				INFOPLIST_FILE = "MX-test-JasonChenTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JasonChen.test.testTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JasonChen.MX-test-JasonChen.MX-test-JasonChenTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MX-test-JasonChen.app/MX-test-JasonChen";
 			};
 			name = Release;
 		};
-		4F49971F1ED139A000072509 /* Debug */ = {
+		4F4997611ED145C200072509 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZNG8N2Y2VU;
-				INFOPLIST_FILE = testUITests/Info.plist;
+				INFOPLIST_FILE = "MX-test-JasonChenUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JasonChen.test.testUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JasonChen.MX-test-JasonChen.MX-test-JasonChenUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = test;
+				TEST_TARGET_NAME = "MX-test-JasonChen";
 			};
 			name = Debug;
 		};
-		4F4997201ED139A000072509 /* Release */ = {
+		4F4997621ED145C200072509 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZNG8N2Y2VU;
-				INFOPLIST_FILE = testUITests/Info.plist;
+				INFOPLIST_FILE = "MX-test-JasonChenUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JasonChen.test.testUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JasonChen.MX-test-JasonChen.MX-test-JasonChenUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = test;
+				TEST_TARGET_NAME = "MX-test-JasonChen";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F4996E31ED139A000072509 /* Build configuration list for PBXProject "MX-test-JasonChen" */ = {
+		4F4997251ED145C200072509 /* Build configuration list for PBXProject "MX-test-JasonChen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F4997161ED139A000072509 /* Debug */,
-				4F4997171ED139A000072509 /* Release */,
+				4F4997581ED145C200072509 /* Debug */,
+				4F4997591ED145C200072509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F4997181ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChen" */ = {
+		4F49975A1ED145C200072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F4997191ED139A000072509 /* Debug */,
-				4F49971A1ED139A000072509 /* Release */,
+				4F49975B1ED145C200072509 /* Debug */,
+				4F49975C1ED145C200072509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		4F49971B1ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenTests" */ = {
+		4F49975D1ED145C200072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F49971C1ED139A000072509 /* Debug */,
-				4F49971D1ED139A000072509 /* Release */,
+				4F49975E1ED145C200072509 /* Debug */,
+				4F49975F1ED145C200072509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		4F49971E1ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenUITests" */ = {
+		4F4997601ED145C200072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F49971F1ED139A000072509 /* Debug */,
-				4F4997201ED139A000072509 /* Release */,
+				4F4997611ED145C200072509 /* Debug */,
+				4F4997621ED145C200072509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4F4996F71ED139A000072509 /* test.xcdatamodeld */ = {
+		4F4997391ED145C200072509 /* MX_test_JasonChen.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4F4996F81ED139A000072509 /* test.xcdatamodel */,
+				4F49973A1ED145C200072509 /* MX_test_JasonChen.xcdatamodel */,
 			);
-			currentVersion = 4F4996F81ED139A000072509 /* test.xcdatamodel */;
-			path = test.xcdatamodeld;
+			currentVersion = 4F49973A1ED145C200072509 /* MX_test_JasonChen.xcdatamodel */;
+			path = MX_test_JasonChen.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 4F4996E01ED139A000072509 /* Project object */;
+	rootObject = 4F4997221ED145C200072509 /* Project object */;
 }

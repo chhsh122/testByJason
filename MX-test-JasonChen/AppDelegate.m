@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  test
+//  MX-test-JasonChen
 //
 //  Created by Jason chen on 2017/5/21.
 //  Copyright © 2017年 Jason Chen. All rights reserved.
@@ -58,7 +58,7 @@
     // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
     @synchronized (self) {
         if (_persistentContainer == nil) {
-            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"test"];
+            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"MX_test_JasonChen"];
             [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
                 if (error != nil) {
                     // Replace this implementation with code to handle the error appropriately.
