@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F4996E81ED139A000072509 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4996E81ED139A000072509 /* MX-test-JasonChen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MX-test-JasonChen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4996EC1ED139A000072509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F4996EE1ED139A000072509 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F4996EF1ED139A000072509 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		4F4996FA1ED139A000072509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F4996FD1ED139A000072509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F4996FF1ED139A000072509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F4997041ED139A000072509 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4997041ED139A000072509 /* MX-test-JasonChenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MX-test-JasonChenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4997081ED139A000072509 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
 		4F49970A1ED139A000072509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F49970F1ED139A000072509 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F49970F1ED139A000072509 /* MX-test-JasonChenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MX-test-JasonChenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4997131ED139A000072509 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		4F4997151ED139A000072509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,9 +93,9 @@
 		4F4996E91ED139A000072509 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F4996E81ED139A000072509 /* test.app */,
-				4F4997041ED139A000072509 /* testTests.xctest */,
-				4F49970F1ED139A000072509 /* testUITests.xctest */,
+				4F4996E81ED139A000072509 /* MX-test-JasonChen.app */,
+				4F4997041ED139A000072509 /* MX-test-JasonChenTests.xctest */,
+				4F49970F1ED139A000072509 /* MX-test-JasonChenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F4996E71ED139A000072509 /* test */ = {
+		4F4996E71ED139A000072509 /* MX-test-JasonChen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F4997181ED139A000072509 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 4F4997181ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChen" */;
 			buildPhases = (
 				4F4996E41ED139A000072509 /* Sources */,
 				4F4996E51ED139A000072509 /* Frameworks */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = "MX-test-JasonChen";
 			productName = test;
-			productReference = 4F4996E81ED139A000072509 /* test.app */;
+			productReference = 4F4996E81ED139A000072509 /* MX-test-JasonChen.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F4997031ED139A000072509 /* testTests */ = {
+		4F4997031ED139A000072509 /* MX-test-JasonChenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F49971B1ED139A000072509 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = 4F49971B1ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenTests" */;
 			buildPhases = (
 				4F4997001ED139A000072509 /* Sources */,
 				4F4997011ED139A000072509 /* Frameworks */,
@@ -176,14 +176,14 @@
 			dependencies = (
 				4F4997061ED139A000072509 /* PBXTargetDependency */,
 			);
-			name = testTests;
+			name = "MX-test-JasonChenTests";
 			productName = testTests;
-			productReference = 4F4997041ED139A000072509 /* testTests.xctest */;
+			productReference = 4F4997041ED139A000072509 /* MX-test-JasonChenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4F49970E1ED139A000072509 /* testUITests */ = {
+		4F49970E1ED139A000072509 /* MX-test-JasonChenUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F49971E1ED139A000072509 /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = 4F49971E1ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenUITests" */;
 			buildPhases = (
 				4F49970B1ED139A000072509 /* Sources */,
 				4F49970C1ED139A000072509 /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				4F4997111ED139A000072509 /* PBXTargetDependency */,
 			);
-			name = testUITests;
+			name = "MX-test-JasonChenUITests";
 			productName = testUITests;
-			productReference = 4F49970F1ED139A000072509 /* testUITests.xctest */;
+			productReference = 4F49970F1ED139A000072509 /* MX-test-JasonChenUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4F4996E31ED139A000072509 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 4F4996E31ED139A000072509 /* Build configuration list for PBXProject "MX-test-JasonChen" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -240,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F4996E71ED139A000072509 /* test */,
-				4F4997031ED139A000072509 /* testTests */,
-				4F49970E1ED139A000072509 /* testUITests */,
+				4F4996E71ED139A000072509 /* MX-test-JasonChen */,
+				4F4997031ED139A000072509 /* MX-test-JasonChenTests */,
+				4F49970E1ED139A000072509 /* MX-test-JasonChenUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -307,12 +307,12 @@
 /* Begin PBXTargetDependency section */
 		4F4997061ED139A000072509 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F4996E71ED139A000072509 /* test */;
+			target = 4F4996E71ED139A000072509 /* MX-test-JasonChen */;
 			targetProxy = 4F4997051ED139A000072509 /* PBXContainerItemProxy */;
 		};
 		4F4997111ED139A000072509 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F4996E71ED139A000072509 /* test */;
+			target = 4F4996E71ED139A000072509 /* MX-test-JasonChen */;
 			targetProxy = 4F4997101ED139A000072509 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JasonChen.test.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MX-test-JasonChen.app/MX-test-JasonChen";
 			};
 			name = Debug;
 		};
@@ -471,7 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JasonChen.test.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MX-test-JasonChen.app/MX-test-JasonChen";
 			};
 			name = Release;
 		};
@@ -502,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F4996E31ED139A000072509 /* Build configuration list for PBXProject "test" */ = {
+		4F4996E31ED139A000072509 /* Build configuration list for PBXProject "MX-test-JasonChen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F4997161ED139A000072509 /* Debug */,
@@ -511,29 +511,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F4997181ED139A000072509 /* Build configuration list for PBXNativeTarget "test" */ = {
+		4F4997181ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F4997191ED139A000072509 /* Debug */,
 				4F49971A1ED139A000072509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4F49971B1ED139A000072509 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		4F49971B1ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F49971C1ED139A000072509 /* Debug */,
 				4F49971D1ED139A000072509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4F49971E1ED139A000072509 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		4F49971E1ED139A000072509 /* Build configuration list for PBXNativeTarget "MX-test-JasonChenUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F49971F1ED139A000072509 /* Debug */,
 				4F4997201ED139A000072509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
